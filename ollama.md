@@ -198,3 +198,14 @@ This Error will occured when we are trying to start server with above command an
  solution for this error is to quit a ollama server as shown in image, and start again
  
  ![alt text](./sol1.png)
+
+ 2. Error2:
+
+ this error will occured when we are sending request from code and forget to start the server
+
+ ![alt text](./Error2.png.png)
+
+solution: 
+
+start the server with 
+# ollama serve
