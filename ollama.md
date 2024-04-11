@@ -203,7 +203,7 @@ This Error will occured when we are trying to start server with above command an
 
  this error will occured when we are sending request from code and forget to start the server
 
- ![alt text](./Error2.png.png)
+ ![alt text](./Error2.png)
 
 solution: 
 
