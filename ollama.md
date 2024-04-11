@@ -1,7 +1,7 @@
 # LLMs(Large Language Model's)
 Before understanding Ollama lets know about LLMS -
 
-#### What are Large Language Models (LLMs)?
+## What are Large Language Models (LLMs)?
 
 Imagine a super-powered autocomplete for text! LLMs are like that -     powerful AI programs trained on massive amounts of text data. They can:
 
@@ -15,7 +15,7 @@ Imagine a super-powered autocomplete for text! LLMs are like that -     powerful
 
 - Think of them like this: You give them a sentence or question, and they continue it in a meaningful way, using patterns learned from all the text they've seen.
 
-#### How do LLMs work?
+## How do LLMs work?
 
 Massive Memory: LLMs store all the text data they're trained on (books, articles, code, etc.).
 
@@ -23,7 +23,7 @@ Learning Algorithm: This algorithm analyzes the patterns in the stored data, lea
 
 When you ask an LLM something, it uses its knowledge and learned patterns to respond.
 
-#### Benefits of LLMs:
+### Benefits of LLMs:
 
 Automate Tasks: LLMs can handle repetitive text tasks like summarizing documents.
 
@@ -31,7 +31,7 @@ Personalized Experiences: They can create chatbots or virtual assistants that un
 
 Research Acceleration: LLMs can help analyze large amounts of text data for new insights.
 
-#### Limitations of LLMs:
+### Limitations of LLMs:
 
 Bias: LLMs are trained on real-world data, which can be biased, leading to biased outputs.
 
@@ -43,7 +43,9 @@ Want to learn more?
 #### Check out these resources:
 
 Google AI Blog: https://blog.research.google/
+
 OpenAI: https://openai.com/
+
 Hugging Face: https://huggingface.co/
 
 
@@ -168,3 +170,5 @@ open the command prompt and put the command:
 
 llm.invoke("tell me a joke in math")
 
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
