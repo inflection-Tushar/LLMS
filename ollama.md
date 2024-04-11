@@ -183,3 +183,18 @@ Example:
 
 Above example use the "phi" model
 ![alt text](./tute.png "Logo Title Text 1")
+
+
+# Possible Errors we can get
+
+1. Error1: 
+
+This Error will occured when we are trying to start server with above command and our server is already running somewhere
+ ### ollama serve
+ ![alt text](./Error1.png)
+
+ solution: 
+
+ solution for this error is to quit a ollama server as shown in image, and start again
+ 
+ ![alt text](./sol1.png)
