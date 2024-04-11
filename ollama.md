@@ -135,7 +135,7 @@ For example:
 why sky is blue
 
 
-3. Install the Model (if needed): If the model you want to use isn't already downloaded, use the following command, replacing llama2 with the actual model name and optionally specifying the parameter size (e.g., :7b for 7 billion parameters):
+3. __Install the Model (if needed)__: If the model you want to use isn't already downloaded, use the following command, replacing llama2 with the actual model name and optionally specifying the parameter size (e.g., :7b for 7 billion parameters):
 
 suppose we want to run 2b,7b or 13b parameters we can run it as follows
 
@@ -168,15 +168,3 @@ open the command prompt and put the command:
 
 llm.invoke("tell me a joke in math")
 
-Here is a simple footnote[^1].
-
-A footnote can also have multiple lines[^2].  
-
-You can also use words, to fit your writing style more closely[^note].
-
-[^1]: My reference.
-[^2]: Every new line should be prefixed with 2 spaces.  
-  This allows you to have a footnote with multiple lines.
-[^note]:
-    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
-    This footnote also has been made with a different syntax using 4 spaces for new lines.
