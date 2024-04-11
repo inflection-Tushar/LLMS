@@ -127,7 +127,7 @@ Steps:
 
 
 ## ollama run llama2
-
+![alt text](./1_run.png "Logo Title Text 1")
 this will first download the llama2 model then we are ready to send request
 
 2. Interact with the Model: Once the model is downloaded, you can send prompts (questions or instructions) to the model and receive its responses directly in the command prompt. 
@@ -135,6 +135,7 @@ this will first download the llama2 model then we are ready to send request
 For example:
 
 why sky is blue
+![alt text](./request.png "Logo Title Text 1")
 
 
 3. __Install the Model (if needed)__: If the model you want to use isn't already downloaded, use the following command, replacing llama2 with the actual model name and optionally specifying the parameter size (e.g., :7b for 7 billion parameters):
@@ -144,6 +145,7 @@ suppose we want to run 2b,7b or 13b parameters we can run it as follows
 ### ollama run llama2:7b
 ### ollama run llama2:13b
 ### ollama run llama2:34b
+![alt text](./2_llama_b.png "Logo Title Text 1")
 
 
 
@@ -151,7 +153,11 @@ suppose we want to run 2b,7b or 13b parameters we can run it as follows
 
 Steps:
 
-1. first we need to install Lnagchain : pip install langchain
+1. first we need to install Lnagchain :
+ pip install langchain
+
+![alt text](./3_lang.png "Logo Title Text 1")
+
 
 2. after that we need to import Ollama from langchain
 
@@ -165,13 +171,15 @@ llm = Ollama(model="llama2")
 
 open the command prompt and put the command:
 ### ollama serve
+![alt text](./4_serve.png "Logo Title Text 1")
+
 
 5. Now we are ready to send the request.
 
 llm.invoke("tell me a joke in math")
 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
-Inline-style: 
+Example:
+
+Above example use the "phi" model
 ![alt text](./tute.png "Logo Title Text 1")
